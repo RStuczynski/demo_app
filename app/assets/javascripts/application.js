@@ -10,8 +10,6 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= javascript_include_tag
-'//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js', :defer
-=> true, :async => true
+ require jquery
 //= require jquery_ujs
 //= require_tree .
